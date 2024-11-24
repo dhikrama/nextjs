@@ -40,6 +40,7 @@
         <a href="/about" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">About</a>
         <a href="/services" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Services</a>
         <a href="/contact" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Contact</a>
+        <a href="https://blog.maunguli.com/" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Blog</a>
       </div>
     </div>
   </header>
