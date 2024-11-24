@@ -1,7 +1,15 @@
 <template>
   <section class="relative bg-gradient-to-r from-purple-600 to-purple-800 text-white h-screen flex flex-col justify-center items-center text-center px-6 py-12">
-    <!-- Background Image with Parallax Effect -->
-    <div class="absolute inset-0 bg-cover bg-center opacity-40" style="background-image: url('https://cdn.jsdelivr.net/gh/dhikrama/images/hero_background_maunguli.webp');"></div>
+    <!-- Background Image with NuxtImage -->
+    <div class="absolute inset-0 opacity-40">
+      <NuxtImage 
+        src="https://cdn.jsdelivr.net/gh/dhikrama/images/hero_background_maunguli.webp" 
+        layout="fill" 
+        objectFit="cover" 
+        alt="Hero Background"
+        class="z-0"
+      />
+    </div>
 
     <!-- Content -->
     <div class="relative z-10">
