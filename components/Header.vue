@@ -5,7 +5,11 @@
         <!-- Logo -->
         <div class="flex-shrink-0">
           <a href="/">
-            <img src="https://cdn.jsdelivr.net/gh/dhikrama/images/maunguli-logo.webp" alt="Logo" class="h-10 w-auto" />
+            <NuxtImg src="https://cdn.jsdelivr.net/gh/dhikrama/images/maunguli-logo.webp"
+            width="150"
+            height="auto"
+            quality="100"
+            />
           </a>
         </div>
 
