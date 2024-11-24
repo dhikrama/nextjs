@@ -1,7 +1,7 @@
 <template>
   <section class="relative bg-gradient-to-r from-purple-600 to-purple-800 text-white h-screen flex flex-col justify-center items-center text-center px-6 py-12">
     <!-- Background Image with Parallax Effect -->
-    <div class="absolute inset-0 bg-cover bg-center opacity-40" style="background-image: url('/images/hero-bg.jpg');"></div>
+    <div class="absolute inset-0 bg-cover bg-center opacity-40" style="background-image: url('https://cdn.jsdelivr.net/gh/dhikrama/images/hero_background_maunguli.webp');"></div>
 
     <!-- Content -->
     <div class="relative z-10">
