@@ -1,39 +1,30 @@
 <template>
-    <section class="py-20 bg-gray-100">
-      <div class="container mx-auto px-6 text-center">
-        <h2 class="text-4xl font-bold mb-12">Layanan Kami</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
-            <div class="mb-4">
-                <font-awesome-icon :icon="['fas', 'toolbox']" class="text-blue-500 text-3xl" />
-            </div>
-            <h3 class="text-2xl font-semibold mb-4">Layanan 1</h3>
-            <p class="text-gray-700">Deskripsi singkat tentang layanan pertama Anda. Menggunakan teknologi terbaru untuk solusi terbaik.</p>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
-            <div class="mb-4">
-                <font-awesome-icon :icon="['fas', 'hammer']" class="text-blue-500 text-3xl" />
-            </div>
-            <h3 class="text-2xl font-semibold mb-4">Layanan 2</h3>
-            <p class="text-gray-700">Deskripsi singkat tentang layanan kedua Anda. Fokus pada mobilitas dan aksesibilitas.</p>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
-            <div class="mb-4">
-                <font-awesome-icon :icon="['fas', 'paint-roller']" class="text-blue-500 text-3xl" />
-            </div>
-            <h3 class="text-2xl font-semibold mb-4">Layanan 3</h3>
-            <p class="text-gray-700">Deskripsi singkat tentang layanan ketiga Anda. Solusi global untuk masalah lokal.</p>
-          </div>
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">Layanan Kami</h2>
+      <p class="text-gray-600 mb-12">
+        Layanan profesional kami mencakup berbagai jenis pekerjaan konstruksi yang dapat disesuaikan dengan kebutuhan Anda.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Layanan 1 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <font-awesome-icon :icon="['fas', 'hammer']" class="text-purple-600 text-4xl mb-4" />
+          <h3 class="text-lg font-semibold text-gray-800 mb-4">Pekerjaan Konstruksi Umum</h3>
+          <p class="text-gray-600">Kami menangani berbagai jenis proyek konstruksi mulai dari rumah tinggal hingga gedung besar.</p>
+        </div>
+        <!-- Layanan 2 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <font-awesome-icon :icon="['fas', 'paint-roller']" class="text-purple-600 text-4xl mb-4" />
+          <h3 class="text-lg font-semibold text-gray-800 mb-4">Pengecatan dan Finishing</h3>
+          <p class="text-gray-600">Memberikan hasil pengecatan yang rapi dan finishing yang detail untuk memberikan kesan estetika pada bangunan.</p>
+        </div>
+        <!-- Layanan 3 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <font-awesome-icon :icon="['fas', 'tools']" class="text-purple-600 text-4xl mb-4" />
+          <h3 class="text-lg font-semibold text-gray-800 mb-4">Perbaikan Bangunan</h3>
+          <p class="text-gray-600">Kami juga menyediakan layanan perbaikan bangunan yang rusak atau membutuhkan renovasi.</p>
         </div>
       </div>
-    </section>
-  </template>
-  
-  <script setup>
-  // Tidak perlu menggunakan export default di Nuxt 3
-  </script>
-  
-  <style scoped>
-  /* Tambahkan gaya khusus jika diperlukan */
-  </style>
-  
+    </div>
+  </section>
+</template>
