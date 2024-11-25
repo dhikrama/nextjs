@@ -1,4 +1,5 @@
 <template>
+  <div id="services">
   <section class="py-16 bg-white">
     <div class="max-w-6xl mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold text-gray-800 mb-6">Layanan Kami</h2>
@@ -27,6 +28,7 @@
       </div>
     </div>
   </section>
+</div>
 </template>
 
 <script setup>

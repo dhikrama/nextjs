@@ -1,54 +1,29 @@
 <template>
-  <section class="relative bg-gradient-to-r from-purple-600 to-purple-800 text-white h-screen flex flex-col justify-center items-center text-center px-6 py-12">
-    <!-- Background Images -->
-    <div class="absolute inset-0">
-      <!-- Desktop Image -->
-      <NuxtImg
-        v-if="!isMobile"
-        src="https://cdn.jsdelivr.net/gh/dhikrama/images/hero_background_maunguli.webp"
-        layout="fill"
-        object-fit="cover"
-        alt="Hero Background Desktop"
-        class="z-0"
-        sizes="(min-width: 1024px) 100vw"
-        loading="lazy"
-      />
-      <!-- Mobile Image -->
-      <NuxtImg
-        v-else
-        src="https://cdn.jsdelivr.net/gh/dhikrama/images/mobile-hero-background.webp"
-        layout="fill"
-        object-fit="cover"
-        alt="Hero Background Mobile"
-        class="z-0"
-        sizes="(max-width: 768px) 100vw"
-        loading="lazy"
-      />
+  <section
+    class="relative bg-gradient-to-r from-purple-600 to-purple-800 text-white h-screen flex flex-col justify-center items-center text-center px-6 py-12 overflow-hidden">
+    <!-- Background -->
+    <div class="absolute inset-0 -z-10">
+      <div class="absolute inset-0 bg-gradient-to-b from-purple-800 via-transparent to-black opacity-70"></div>
     </div>
 
     <!-- Content -->
-    <div class="relative z-10">
+    <div class="relative z-10 max-w-4xl mx-auto">
       <h1 class="text-5xl sm:text-6xl font-extrabold leading-tight mb-6 text-shadow-lg">
-        Bangun Impian Anda Bersama MauNguli
+        Bangun Masa Depan Bersama <span class="text-yellow-300">MauNguli</span>
       </h1>
-      <p class="text-xl sm:text-2xl mb-8 max-w-2xl mx-auto text-shadow-md">
-        Kami memberikan layanan konstruksi berkualitas tinggi untuk proyek rumah, kantor, dan bangunan komersial. Percayakan pada kami untuk mewujudkan impian Anda dengan harga terjangkau dan tepat waktu.
+      <p class="text-lg sm:text-2xl mb-8 max-w-3xl mx-auto text-shadow-md">
+        Transformasikan ide Anda menjadi kenyataan. Kami menyediakan layanan konstruksi terbaik untuk proyek perumahan,
+        komersial, dan industri.
       </p>
-      <div>
-        <button
-          @click="goToContact"
-          class="bg-white text-purple-800 px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:bg-purple-600 hover:text-white shadow-lg"
-        >
+      <div class="flex flex-wrap justify-center gap-4">
+        <button @click="goToContact"
+          class="bg-yellow-300 text-purple-800 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:bg-purple-700 hover:text-white shadow-lg">
           Hubungi Kami
         </button>
-      </div>
-      <!-- Scroll Icon -->
-      <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <a href="#services">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
-          </svg>
-        </a>
+        <button @click="scrollToServices"
+          class="border border-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:bg-white hover:text-purple-800 shadow-lg">
+          Lihat Layanan
+        </button>
       </div>
     </div>
   </section>
@@ -70,13 +45,21 @@ export default {
       window.addEventListener('resize', checkViewport);
     });
 
+    const scrollToServices = () => {
+      const servicesSection = document.querySelector('#services');
+      if (servicesSection) {
+        servicesSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
     return {
       isMobile,
+      scrollToServices,
     };
   },
   methods: {
     goToContact() {
-      this.$router.push('/contact'); // Mengarahkan ke halaman kontak
+      this.$router.push('/contact');
     },
   },
 };
@@ -86,6 +69,7 @@ export default {
 .text-shadow-lg {
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 .text-shadow-md {
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }

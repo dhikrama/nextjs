@@ -15,7 +15,7 @@
             <a href="/" class="text-gray-400 hover:text-white transition">Beranda</a>
             <a href="/about" class="text-gray-400 hover:text-white transition">Tentang Kami</a>
             <a href="/services" class="text-gray-400 hover:text-white transition">Layanan</a>
-            <a href="/contact" class="text-gray-400 hover:text-white transition">Kontak</a>
+            <a href="#services" class="text-gray-400 hover:text-white transition">Kontak</a>
           </div>
         </div>
   
@@ -23,7 +23,7 @@
         <div class="my-6 border-t border-gray-700"></div>
   
         <!-- Hak Cipta -->
-        <div class="text-center text-gray-500 text-sm">
+        <div class="text-center text-gray text-sm">
           © {{ new Date().getFullYear() }} MauNguli. Semua hak dilindungi.
         </div>
       </div>

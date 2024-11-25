@@ -1,8 +1,8 @@
 <template>
   <div>
     <HomeHeroComponent /><
-    <HomeServicesComponent />
     <HomeAboutComponent />
+    <HomeServicesComponent />
     <HomeCallToAction />
     <HomeTestimonialsComponent />
 
