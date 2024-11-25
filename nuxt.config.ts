@@ -21,6 +21,9 @@ export default defineNuxtConfig({
     },
   },
 
+  plugins: [
+  ],
+
     modules: ['@nuxt/image'],
     image: {
       domains: ['cdn.jsdelivr.net'], // Daftarkan domain gambar yang diizinkan
