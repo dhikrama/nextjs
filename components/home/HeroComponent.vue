@@ -1,14 +1,27 @@
 <template>
   <section class="relative bg-gradient-to-r from-purple-600 to-purple-800 text-white h-screen flex flex-col justify-center items-center text-center px-6 py-12">
-    <!-- Background Image with NuxtImg -->
+    <!-- Background Images -->
     <div class="absolute inset-0">
-      <NuxtImg 
-        src="https://cdn.jsdelivr.net/gh/dhikrama/images/hero_background_maunguli.webp" 
-        layout="fill" 
-        object-fit="cover" 
-        alt="Hero Background"
+      <!-- Desktop Image -->
+      <NuxtImg
+        v-if="!isMobile"
+        src="https://cdn.jsdelivr.net/gh/dhikrama/images/hero_background_maunguli.webp"
+        layout="fill"
+        object-fit="cover"
+        alt="Hero Background Desktop"
         class="z-0"
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        sizes="(min-width: 1024px) 100vw"
+        loading="lazy"
+      />
+      <!-- Mobile Image -->
+      <NuxtImg
+        v-else
+        src="https://cdn.jsdelivr.net/gh/dhikrama/images/mobile-hero-background.webp"
+        layout="fill"
+        object-fit="cover"
+        alt="Hero Background Mobile"
+        class="z-0"
+        sizes="(max-width: 768px) 100vw"
         loading="lazy"
       />
     </div>
@@ -42,7 +55,25 @@
 </template>
 
 <script>
+import { ref, onMounted } from 'vue';
+
 export default {
+  setup() {
+    const isMobile = ref(false);
+
+    const checkViewport = () => {
+      isMobile.value = window.innerWidth < 1024;
+    };
+
+    onMounted(() => {
+      checkViewport();
+      window.addEventListener('resize', checkViewport);
+    });
+
+    return {
+      isMobile,
+    };
+  },
   methods: {
     goToContact() {
       this.$router.push('/contact'); // Mengarahkan ke halaman kontak

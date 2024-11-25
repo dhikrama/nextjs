@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gray-800 text-white shadow-md relative">
+  <header class="bg-gray-800 text-white shadow-md sticky top-0 z-50">
     <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
@@ -10,6 +10,8 @@
               width="150"
               height="auto"
               quality="100"
+              alt="Kembali ke halaman utama"
+              loading="lazy"
             />
           </a>
         </div>
@@ -43,7 +45,12 @@
         <a href="/about" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">About</a>
         <a href="/services" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Services</a>
         <a href="/contact" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Contact</a>
-        <a href="https://blog.maunguli.com/" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Blog</a>
+        <a
+          href="https://blog.maunguli.com/"
+          class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base"
+        >
+          Blog
+        </a>
       </div>
     </div>
   </header>
@@ -55,11 +62,13 @@ import { ref } from 'vue';
 const isMenuOpen = ref(false);
 
 const toggleMenu = () => {
-  console.log('Menu toggled:', isMenuOpen.value); // Debugging
   isMenuOpen.value = !isMenuOpen.value;
 };
 </script>
 
 <style scoped>
-/* Tambahkan jika diperlukan */
+/* Tambahkan transisi smooth jika diperlukan */
+header {
+  transition: all 0.3s ease-in-out;
+}
 </style>
