@@ -9,7 +9,7 @@
               src="https://cdn.jsdelivr.net/gh/dhikrama/images/logo-website-maunguli.webp"
               width="150"
               height="44"
-              quality="100"
+              quality="80"
               alt="Kembali ke halaman utama"
               loading="lazy"
             />
