@@ -29,8 +29,7 @@ export default defineNuxtConfig({
     },
   },
 
-  plugins: [
-  ],
+    // plugins: ['~/plugins/canonical.js'],
 
     modules: ['@nuxt/image'],
     image: {

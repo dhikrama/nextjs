@@ -6,9 +6,9 @@
         <div class="flex-shrink-0">
           <a href="/">
             <NuxtImg
-              src="https://cdn.jsdelivr.net/gh/dhikrama/images/maunguli-logo.webp"
+              src="https://cdn.jsdelivr.net/gh/dhikrama/images/logo-website-maunguli.webp"
               width="150"
-              height="auto"
+              height="44"
               quality="100"
               alt="Kembali ke halaman utama"
               loading="lazy"
