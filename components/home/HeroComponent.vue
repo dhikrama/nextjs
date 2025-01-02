@@ -12,8 +12,7 @@
         Bangun Masa Depan Bersama <span class="text-yellow-300">MauNguli</span>
       </h1>
       <p class="text-lg sm:text-2xl mb-8 max-w-3xl mx-auto text-shadow-md">
-        Transformasikan ide Anda menjadi kenyataan. Kami menyediakan layanan konstruksi terbaik untuk proyek perumahan,
-        komersial, dan industri.
+        Tukang Bangunan Berpengalaman Siap Mewujudkan Ide Anda.
       </p>
       <div class="flex flex-wrap justify-center gap-4">
         <button @click="goToContact"

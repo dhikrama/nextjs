@@ -32,7 +32,7 @@
             <a href="/about" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg">About</a>
             <a href="/services" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg">Services</a>
             <a href="/contact" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg">Contact</a>
-            <a href="https://blog.maunguli.com/" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg">Blog</a>
+            <a href="/blog" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg">Blog</a>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
         <a href="/services" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Services</a>
         <a href="/contact" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Contact</a>
         <a
-          href="https://blog.maunguli.com/"
+          href="/blog"
           class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base"
         >
           Blog

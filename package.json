@@ -13,6 +13,8 @@
     "@heroicons/vue": "^2.2.0",
     "@mdi/js": "^7.4.47",
     "@nuxt/image": "^1.8.1",
+    "axios": "^1.7.9",
+    "dompurify": "^3.2.3",
     "nuxt": "^3.14.1592",
     "vue": "latest",
     "vue-router": "latest"

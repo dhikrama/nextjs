@@ -16,6 +16,7 @@ export default defineNuxtConfig({
       },
     },
   },
+  pages: true,
 
   // other configurations 
   ssr: true,
@@ -28,6 +29,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
+  runtimeConfig: {
+    public: {
+      blogId: process.env.BLOG_ID,
+      apiKey: process.env.API_KEY,
+    }},
 
     // plugins: ['~/plugins/canonical.js'],
 
