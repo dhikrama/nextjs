@@ -156,7 +156,7 @@ button:disabled {
 }
 
 /* Style bawaan Blogger */
-::v-deep .post-card h2 {
+:deep .post-card h2 {
   font-family: 'BloggerSans', sans-serif;
   font-size: 24px;
   margin: 0;
@@ -164,19 +164,19 @@ button:disabled {
   color: #333;
 }
 
-::v-deep .post-card p {
+:deep .post-card p {
   font-family: 'BloggerSans', sans-serif;
   font-size: 16px;
   color: #555;
 }
 
-::v-deep .post-card img {
+:deep .post-card img {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 5px;
 }
 
-::v-deep .pagination button {
+:deep .pagination button {
   font-family: 'BloggerSans', sans-serif;
   font-size: 14px;
 }
