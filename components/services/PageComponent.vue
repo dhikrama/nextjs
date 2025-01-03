@@ -21,7 +21,7 @@
           <p class="text-gray-600">
             <strong>Manfaat:</strong> Kualitas tinggi, harga terjangkau, dan tepat waktu.
           </p>
-          <a href="https://wa.me/nomor_whatsapp" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
+          <a href="https://wa.me/6285156436826" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
         </div>
 
         <!-- Layanan 2: Renovasi dan Perbaikan Bangunan -->
@@ -35,7 +35,7 @@
           <p class="text-gray-600">
             <strong>Manfaat:</strong> Perbaikan cepat, aman, dan biaya efisien.
           </p>
-          <a href="https://wa.me/nomor_whatsapp" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
+          <a href="https://wa.me/6285156436826" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
         </div>
 
         <!-- Layanan 3: Pengecatan dan Finishing -->
@@ -49,7 +49,7 @@
           <p class="text-gray-600">
             <strong>Manfaat:</strong> Tampilan bangunan yang lebih bersih, rapi, dan tahan lama.
           </p>
-          <a href="https://wa.me/nomor_whatsapp" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
+          <a href="https://wa.me/6285156436826" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
         </div>
 
         <!-- Layanan 4: Renovasi Kamar Mandi -->
@@ -63,7 +63,7 @@
           <p class="text-gray-600">
             <strong>Manfaat:</strong> Hasil renovasi yang estetik, fungsional, dan sesuai anggaran.
           </p>
-          <a href="https://wa.me/nomor_whatsapp" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
+          <a href="https://wa.me/6285156436826" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
         </div>
 
         <!-- Layanan 5: Pemasangan Sistem Listrik -->
@@ -77,7 +77,7 @@
           <p class="text-gray-600">
             <strong>Manfaat:</strong> Instalasi listrik yang aman, efisien, dan sesuai dengan kebutuhan Anda.
           </p>
-          <a href="https://wa.me/nomor_whatsapp" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
+          <a href="https://wa.me/6285156436826="class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via  WhatsApp</a>
         </div>
 
         <!-- Layanan 6: Pengelolaan Proyek Konstruksi -->
@@ -91,7 +91,7 @@
           <p class="text-gray-600">
             <strong>Manfaat:</strong> Pengelolaan yang efisien, aman, dan sesuai dengan spesifikasi proyek.
           </p>
-          <a href="https://wa.me/nomor_whatsapp" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
+          <a href="https://wa.me/6285156436826" class="text-purple-600 font-semibold mt-4 inline-block">Hubungi via WhatsApp</a>
         </div>
       </div>
     </div>
