@@ -3,6 +3,7 @@
     <Header />
     <slot />
     <Footer />
+    <Whatsapp />
   </div>
 </template>
 
