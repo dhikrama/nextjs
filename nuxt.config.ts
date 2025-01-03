@@ -38,7 +38,7 @@ export default defineNuxtConfig({
 
     // plugins: ['~/plugins/canonical.js'],
 
-    modules: ['@nuxt/image'],
+    modules: ['@nuxt/image', '@nuxt/ui'],
     image: {
       domains: ['cdn.jsdelivr.net'], // Daftarkan domain gambar yang diizinkan
       provider: 'ipx', // Gunakan provider bawaan
